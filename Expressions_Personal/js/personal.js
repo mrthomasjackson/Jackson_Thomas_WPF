@@ -12,4 +12,6 @@ alert("Testing 1,2,3");
 // Equation is 1in = 2.54cm*in
 
 var inches = prompt ("Enter your height in 'inches'");
+var centimeters;
+
 
