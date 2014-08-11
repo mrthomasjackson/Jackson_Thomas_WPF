@@ -14,4 +14,6 @@ alert("Testing 1,2,3");
 var inches = prompt ("Enter your height in 'inches'");
 var centimeters;
 
+centimeters = (2.54*inches);
 
+alert (centimeters);
