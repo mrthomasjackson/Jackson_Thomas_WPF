@@ -16,5 +16,6 @@ var inches = prompt ("Enter your height in inches",50);
 //created a variable to store centimeters
 var centimeters;
 
-
+//section that holds equations
+centimeters = (2.54 * inches);
 
