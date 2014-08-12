@@ -6,12 +6,14 @@
 
 /*
 alert("Testing 1,2,3");
-* */
+*/
 
 // converting inches to centimeters
-// Equation is 1in = 2.54cm*in
+//Equation is 1in = 2.54cm*in
 
-var inches = prompt([Inches], "Enter your height in inches",50);
+
+var inches = prompt ("Enter your height in inches",50);
+
 var centimeters;
 
 centimeters = (2.54 * inches);
