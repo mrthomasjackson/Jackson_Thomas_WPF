@@ -8,3 +8,4 @@
 
 
 // converting inches to centimeters
+//Equation is 1in = 2.54cm*in
