@@ -26,5 +26,5 @@ centimeters = (2.54 * inches);
 console.log(centimeters);
 
 //created alert that shows the answer
-alert (centimeters);
+alert ("Your converted height is "+ centimeters+" centimeters");
 
