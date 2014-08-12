@@ -22,6 +22,9 @@ var centimeters;
 //section that holds equations
 centimeters = (2.54 * inches);
 
+//console.log-created a section that holds the answer to the equation
+console.log(centimeters);
+
 //created alert that shows the answer
 alert (centimeters);
 
