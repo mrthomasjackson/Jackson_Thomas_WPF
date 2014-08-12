@@ -19,3 +19,5 @@ var centimeters;
 //section that holds equations
 centimeters = (2.54 * inches);
 
+//created alert that shows the answer
+alert (centimeters);
