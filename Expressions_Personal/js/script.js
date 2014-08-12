@@ -13,6 +13,9 @@
 //Created variable to store inches
 var inches = prompt ("Enter your height in inches",50);
 
+//console.log inches
+console.log(inches);
+
 //created a variable to store centimeters
 var centimeters;
 
@@ -21,3 +24,4 @@ centimeters = (2.54 * inches);
 
 //created alert that shows the answer
 alert (centimeters);
+
