@@ -17,6 +17,8 @@ console.log("Your desired salary is $"+salary);
 //associated costs at 30% salary
 var costs = (salary *.3);
 
+//console.log costs
+console.log("Total costs based on 30% of desired salary is "+ costs);
 
 //total cost calculation
 var totalCost = (salary+costs);
