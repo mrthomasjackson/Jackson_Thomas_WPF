@@ -56,5 +56,10 @@ var bmr;
 //below is the equation to calculate BMR
 bmr = 66 + (13.7 * kilos) + (5 * centimeters) - (6.8 * age);
 
+//console.log BMR
+console.log(bmr);
+
+//alerting the user of their BMR
+alert("You have a BMR of "+bmr);
 
 
