@@ -11,10 +11,10 @@
 //Equation is 1in = 2.54cm*in
 
 //Created variable to store inches
-var inches = prompt ("Enter your height in inches",70);
+var inches = prompt ("Enter your height in inches:",70);
 
 //console.log inches
-console.log("User height is "+inches+" inches");
+console.log("User height is "+inches+" inches.");
 
 //created a variable to store centimeters
 var centimeters;
@@ -24,14 +24,21 @@ centimeters = (2.54 * inches);
 
 
 //created alert that shows the answer
-alert ("Your converted height is "+ centimeters+" centimeters");
+alert ("Your converted height is "+ centimeters+" centimeters.");
 
 //console.log-created a section that holds the answer to the equation
-console.log("Converted user height is "+centimeters+" centimeters");
+console.log("Converted user height is "+centimeters+" centimeters.");
 
 //ask user for weight in pounds
-var pounds = prompt ("Enter your weight in pounds",120);
+var pounds = prompt ("Enter your weight in pounds:",120);
 
 //console.log pounds
 console.log("Weight is "+pounds+" pounds");
+
+//pounds to kilograms equation (k = 0.453592 * p)
+var kilos = (pounds * 0.453592);
+
+//alert user converted weight
+alert ("Your converted weight is "+kilos+" kilograms.");
+
 
