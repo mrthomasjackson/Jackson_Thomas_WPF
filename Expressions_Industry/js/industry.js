@@ -15,6 +15,8 @@ var salary = prompt("What is your desired salary?",50000);
 console.log("Your desired salary is $"+salary);
 
 //associated costs at 30% salary
-var costs = (salary *.3)
+var costs = (salary *.3);
 
-//
+
+//total cost calculation
+var totalCost = (salary+costs);
