@@ -4,4 +4,7 @@
  Expressions_Industry
  */
 
-alert("Testing 1,2,3");
+//alert("Testing 1,2,3");
+
+//Calculating Freelancing Rates for web design
+//
