@@ -7,4 +7,8 @@
 //alert("Testing 1,2,3");
 
 //Calculating Freelancing Rates for web design
+
+//Create Variable for target salary
+var salary = prompt("What is your desired salary?",50000);
+
 //
