@@ -14,7 +14,7 @@
 var inches = prompt ("Enter your height in inches",50);
 
 //console.log inches
-console.log(inches);
+console.log("User height is "+inches+" inches");
 
 //created a variable to store centimeters
 var centimeters;
