@@ -43,3 +43,11 @@ alert ("Your converted weight is "+kilos+" kilograms.");
 
 //console.log answer
 console.log("Converted user weight is "+kilos+" kilograms.");
+
+//asking age
+var age = prompt ("Enter you age:",18);
+
+//console.log age
+console.log("The user is "+age+" years old");
+
+
