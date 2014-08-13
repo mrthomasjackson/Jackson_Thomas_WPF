@@ -50,4 +50,9 @@ var age = prompt ("Enter you age:",18);
 //console.log age
 console.log("The user is "+age+" years old");
 
+//created a vaiable to hold the Basal Metobolic rate
+var bmr;
+
+//below is the equation to calculate BMR
+
 
