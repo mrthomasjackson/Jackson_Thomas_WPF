@@ -30,4 +30,8 @@ alert ("Your converted height is "+ centimeters+" centimeters");
 console.log("Converted user height is "+centimeters+" centimeters");
 
 //ask user for weight in pounds
-var pounds = prompt ("Enter your weight in pounds",120)
+var pounds = prompt ("Enter your weight in pounds",120);
+
+//console.log pounds
+console.log("Weight is "+pounds+" pounds");
+
