@@ -33,4 +33,5 @@ alert("Based upon your desired salary of $"+salary+". After associated costs of 
 alert ("To gauge the amount of billable hours you have, we have a few more questions:");
 var holiday = prompt("How many holiday days do you plan on taking?",7);
 console.log("The user plans on taking "+holiday+" days for holiday leave.");
+var vacation = prompt ("How many vacation days do you plan on having?",14);
 
