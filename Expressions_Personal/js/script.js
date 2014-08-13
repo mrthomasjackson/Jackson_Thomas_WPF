@@ -41,4 +41,5 @@ var kilos = (pounds * 0.453592);
 //alert user converted weight
 alert ("Your converted weight is "+kilos+" kilograms.");
 
-
+//console.log answer
+console.log("Converted user weight is "+kilos+" kilograms.");
