@@ -11,4 +11,7 @@
 //Create Variable for target salary
 var salary = prompt("What is your desired salary?",50000);
 
+//associated costs at 30% salary
+var costs = (salary *.3)
+
 //
