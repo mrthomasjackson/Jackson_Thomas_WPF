@@ -11,7 +11,7 @@
 //Equation is 1in = 2.54cm*in
 
 //Created variable to store inches
-var inches = prompt ("Enter your height in inches",50);
+var inches = prompt ("Enter your height in inches",70);
 
 //console.log inches
 console.log("User height is "+inches+" inches");
@@ -28,3 +28,6 @@ alert ("Your converted height is "+ centimeters+" centimeters");
 
 //console.log-created a section that holds the answer to the equation
 console.log("Converted user height is "+centimeters+" centimeters");
+
+//ask user for weight in pounds
+var pounds = prompt ("Enter your weight in pounds",120)
