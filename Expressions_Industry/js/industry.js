@@ -78,7 +78,7 @@ alert ("Based upon 8 hour workdays, you have " + totalHours + " hours of work av
 console.log("User has " + totalHours + " hours of work anticipated per year.");
 
 //create a variable to calculate how much the user should be making per hour
-var hourlyWage = (parseInt(totalHours) / parseInt(totalSalary));
+var hourlyWage = (parseInt(totalSalary) / parseInt(totalHours));
 
 //alert the user how much they should charge per hour
 alert ("Based upon your estimated salary of " + totalSalary + " you should be charging $" + hourlyWage + " per hour.")
