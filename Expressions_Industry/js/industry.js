@@ -21,13 +21,13 @@ var costs = (salary *.3);
 console.log("Total costs based on 30% of desired salary is "+ costs);
 
 //total cost calculation
-var totalSalary = (salary+costs);
+var totalSalary = (number(salary)+ number(costs));
 
 //console.log total salary
 console.log("Total salary needed is $"+totalSalary);
 
 //alert user on new salary desired.
-alert("Based upon your desired salary of $"+salary+". After associated costs of %30, you new salary figure should be $"+totalSalary);
+alert("Based upon your desired salary of $"+salary+". After associated costs of %30, your new salary figure should be $"+totalSalary);
 
 //create variables for holidays, vacation, and sick days
 alert ("To gauge the amount of billable hours you have, we have a few more questions:");
