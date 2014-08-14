@@ -51,5 +51,5 @@ console.log("User has " + totalHours + " hours of work anticipated per year.");
 
 var hourlyWage = (totalHours * totalSalary);
 alert ("Based upon your estimated salary of " + totalSalary + " you should be charging $" + hourlyWage + " per hour.")
-
+console.log("The user should charge $" + hourlyWage + " per hour.");
 
