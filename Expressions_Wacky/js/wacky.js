@@ -9,6 +9,10 @@
 //creating an equation to calculate the pythagorean theorem
 var aVariable = prompt("Please enter the value of 'a':");
 
+//console.log 'a'
+console.log("The value of a is " + aVariable );
+
+
 
 
 
