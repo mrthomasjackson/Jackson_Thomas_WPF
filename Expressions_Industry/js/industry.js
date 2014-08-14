@@ -34,6 +34,7 @@ alert ("To gauge the amount of billable hours you have, we have a few more quest
 var holiday = prompt("How many holiday days do you plan on taking?",7);
 console.log("The user plans on taking "+holiday+" days for holiday leave.");
 var vacation = prompt ("How many vacation days do you plan on having?",14);
-console.log ("The user plans on taking"+ vacation+" days.");
+console.log ("The user plans on taking"+ vacation+" vacation days.");
 var sick = prompt ("How many sick days do anticipate on having?",5);
+console.log("The user plans on having "+sick+ " sick days.");
 
