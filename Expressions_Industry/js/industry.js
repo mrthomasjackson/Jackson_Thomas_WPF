@@ -38,3 +38,6 @@ console.log ("The user plans on taking"+ vacation+" vacation days.");
 var sick = prompt ("How many sick days do anticipate on having?",5);
 console.log("The user plans on having "+sick+ " sick days.");
 
+var holidayHours = (holiday * 24);
+console.log ("Holidays equals "+holidayHours+" hours.");
+
