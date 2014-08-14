@@ -4,4 +4,11 @@
  Expressions_Wacky
  */
 
-alert("Testing 1,2,3");
+//alert("Testing 1,2,3");
+
+//creating an equation to calculate the pythagorean theorem
+var aVariable = prompt("Please enter the value of 'a':");
+
+
+
+
