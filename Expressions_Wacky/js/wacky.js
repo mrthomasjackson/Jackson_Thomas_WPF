@@ -39,7 +39,13 @@ alert("C = " + csVariable);
 //for fun lets divide that answer by any number
 var funVariable = prompt("For fun lets divide the answer by a number of your choice: ", 3);
 
+//console.log funVariable
+console.log("We will divide by " + funVariable);
 
+//equation
+var final = (parseInt(csVariable)/ parseInt(funVariable));
+
+//
 
 
 
