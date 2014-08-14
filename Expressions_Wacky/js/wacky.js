@@ -45,7 +45,11 @@ console.log("We will divide by " + funVariable);
 //equation
 var final = (parseInt(csVariable)/ parseInt(funVariable));
 
-//
+//console.log final
+console.log("The final answer is " + final);
+
+//alert the user
+alert ("The answer to your equation is " + final);
 
 
 
