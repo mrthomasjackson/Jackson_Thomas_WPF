@@ -33,6 +33,14 @@ var csVariable = Math.sqrt(parseInt(cVariable));
 //console.log csvariable
 console.log("The square root of " + cVariable + " is " + csVariable);
 
+//alert the user of the answer
+alert("C = " + csVariable);
+
+//for fun lets divide that answer by any number
+var funVariable = prompt("For fun lets divide the answer by a number of your choice: ", 3);
+
+
+
 
 
 
