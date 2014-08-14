@@ -45,5 +45,7 @@ console.log("Vacation days equals "+vacationHours+ " hours.");
 var sickHours = (sick * 24);
 console.log("Sick days equals "+sickHours+" hours.");
 
+var totalHours = (2920 - holidayHours - vacationHours - sickHours);
+console.log("User has " + totalHours + " hours of work anticipated per year.");
 
 
