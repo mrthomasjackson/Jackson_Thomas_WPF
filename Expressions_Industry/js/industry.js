@@ -40,4 +40,10 @@ console.log("The user plans on having "+sick+ " sick days.");
 
 var holidayHours = (holiday * 24);
 console.log ("Holidays equals "+holidayHours+" hours.");
+var vacationHours = (vacation * 24);
+console.log("Vacation days equals "+vacationHours+ " hours.");
+var sickHours = (sick * 24);
+console.log("Sick days equals "+sickHours+" hours.");
+
+
 
