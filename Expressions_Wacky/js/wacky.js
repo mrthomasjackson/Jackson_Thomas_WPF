@@ -22,9 +22,12 @@ var bVariable = prompt("Please enter the value of 'b': ", 2);
 console.log("The value of 'b' is " + bVariable);
 
 //create a varable to store 'c' before dividing the root
-var cVariable = (parseInt(aVariable * aVariable) + (parseInt(bVariable * bVariable));
+var cVariable = (parseInt(aVariable * aVariable) + (parseInt(bVariable * bVariable)));
 
-//
+//console.log cVariable
+console.log(cVariable);
+
+
 
 
 
