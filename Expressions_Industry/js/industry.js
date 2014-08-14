@@ -21,7 +21,7 @@ var costs = (salary *.3);
 console.log("Total costs based on 30% of desired salary is "+ costs);
 
 //total cost calculation
-var totalSalary = (number(salary)+ number(costs));
+var totalSalary = parseInt(salary)+ parseInt(costs);
 
 //console.log total salary
 console.log("Total salary needed is $"+totalSalary);
@@ -42,7 +42,7 @@ console.log("The user plans on taking "+holiday+" days for holiday leave.");
 var vacation = prompt ("How many vacation days do you plan on having?",14);
 
 //console.log vacation
-console.log ("The user plans on taking"+ vacation+" vacation days.");
+console.log ("The user plans on taking " + vacation + " vacation days.");
 
 //create a variable for sick days in the day format
 var sick = prompt ("How many sick days do anticipate on having?",5);
@@ -78,7 +78,7 @@ alert ("Based upon 8 hour workdays, you have " + totalHours + " hours of work av
 console.log("User has " + totalHours + " hours of work anticipated per year.");
 
 //create a variable to calculate how much the user should be making per hour
-var hourlyWage = (totalHours * totalSalary);
+var hourlyWage = (parseInt(totalHours) * parseInt(totalSalary));
 
 //alert the user how much they should charge per hour
 alert ("Based upon your estimated salary of " + totalSalary + " you should be charging $" + hourlyWage + " per hour.")
