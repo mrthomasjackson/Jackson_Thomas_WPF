@@ -27,6 +27,12 @@ var cVariable = (parseInt(aVariable * aVariable) + (parseInt(bVariable * bVariab
 //console.log cVariable
 console.log(cVariable);
 
+//find the square root of cVariable
+var csVariable = Math.sqrt(parseInt(cVariable));
+
+//console.log csvariable
+console.log("The square root of " + cVariable + " is " + csVariable);
+
 
 
 
