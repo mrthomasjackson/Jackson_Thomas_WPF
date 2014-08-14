@@ -9,7 +9,7 @@
 //Calculating Freelancing Rates for web design
 
 //Create Variable for target salary
-var salary = prompt("What is your desired salary?",50000);
+var salary = prompt("What is your desired salary as a web designer?",99999);
 
 //console.log salary
 console.log("Your desired salary is $"+salary);
@@ -46,6 +46,10 @@ var sickHours = (sick * 24);
 console.log("Sick days equals "+sickHours+" hours.");
 
 var totalHours = (2920 - holidayHours - vacationHours - sickHours);
+alert ("Based upon 8 hour workdays, you have " + totalHours + " hours of work available a year.");
 console.log("User has " + totalHours + " hours of work anticipated per year.");
+
+var hourlyWage = (totalHours * totalSalary);
+alert ("Based upon your estimated salary of " + totalSalary + " you should be charging $" + hourlyWage + " per hour.")
 
 
