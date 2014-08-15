@@ -85,4 +85,3 @@ alert ("Based upon your estimated salary of " + totalSalary + " you should be ch
 
 //console.log results of hourlyWage
 console.log("The user should charge $" + hourlyWage + " per hour.");
-
