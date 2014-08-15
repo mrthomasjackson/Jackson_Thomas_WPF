@@ -25,7 +25,7 @@ console.log("The value of 'b' is " + bVariable);
 var cVariable = (parseInt(aVariable * aVariable) + (parseInt(bVariable * bVariable)));
 
 //console.log cVariable
-console.log(cVariable);
+console.log("The square root of ('a' squared plus 'b' squared) equals " + cVariable);
 
 //find the square root of cVariable
 var csVariable = Math.sqrt(parseInt(cVariable));
