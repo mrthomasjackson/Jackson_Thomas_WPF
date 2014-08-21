@@ -18,4 +18,18 @@ if (currentTime === "" ) {
 //console.log current time
 console.log("The time is currently " + currentTime);
 
-//create boolean variable to
+//create variable to store if I am working or not
+var work = prompt("Are you working today?");
+
+if (work === "") {
+    work = prompt("Are you working today?!?");
+}
+//declaring work as true or false
+if (work === "yes") {
+    work = true;
+} else {
+    work = false
+}
+
+//console.log work
+console.log ("Are you working? " + work);
