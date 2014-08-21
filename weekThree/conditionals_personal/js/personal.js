@@ -33,3 +33,21 @@ if (work === "yes") {
 
 //console.log work
 console.log ("Are you working? " + work);
+
+//tell the user to go back to bed if they are not working
+if (work === false) {
+    alert("You do not have work, go back to bed.");
+    console.log("User does not have work. Going back to bed.");
+}
+
+if (work === true) {
+//ask the user what time work is
+    var workTime = prompt("What time is work? Please enter using format HHMM: ");
+    if (parseInt(workTime) <= parseInt(currentTime)) {
+        alert ("Time to get out of bed!");
+        console.log("It is time for the user to get out of bed.");
+    } else {
+        alert ("You can stay in bed until " + workTime);
+        console.log("User has until " + workTime + " to sleep." );
+    }
+}
