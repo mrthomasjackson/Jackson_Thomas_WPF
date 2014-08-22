@@ -55,7 +55,7 @@ if (parseInt(tempLow) > parseInt(currentT)){
 }else if (parseInt(tempHigh) < parseInt(currentT)) {
     alert ("It is too hot. But I have some more questions. ");
     console.log("The temperature is too high to run outside.");
-    temp = true
+    temp = true;
 //if current temp is in between tempHigh and tempLow then temp is false
 }else {
     alert("It is perfect running weather! Only one more question!");
@@ -68,7 +68,7 @@ console.log("If temp is true then running INSIDE is recommended. If temp is fals
 var badWeather = prompt ("Are you experiencing bad weather? yes or no:");
 // if there is bad weather the value is true
 if (badWeather === "yes"){
-    badWeather = true
+    badWeather = true;
 //if there is not bad weather the value is false
 }else if (badWeather === "no"){
     badWeather = false
