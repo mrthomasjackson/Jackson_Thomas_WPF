@@ -1,7 +1,7 @@
 /*
  Thomas Jackson
- WPF 201417 Sec 5
- Expressions_Industry
+ WPF 201408 Sec 1
+ Conditionals_Industry
  */
 
 //alert("Testing 1,2,3");

@@ -1,6 +1,6 @@
 /*
  Thomas Jackson
- WPF 201417 Sec 5
+ WPF 201408 Sec 1
  Conditionals_Personal
  */
 
