@@ -66,5 +66,7 @@ function moneyPerWeek (money,months,week){
 //calling function moneyPerWeek
 var moneyWeeks = moneyPerWeek(moneyOwed,monthsOwed,weeklyTwo);
 
+//alert the user of the final answer
+alert ("The client owes " + moneyWeeks + " per " + weekly + " weeks");
 //console.log final answer
 console.log("The client owes " + moneyWeeks + " per " + weekly + " weeks");
