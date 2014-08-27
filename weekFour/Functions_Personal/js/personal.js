@@ -28,7 +28,7 @@ function countdown (days) {
     console.log("You have " + daysLeft + " days left until your birthday.")
 }
 
-//if statement to call function
+//while statement to call function
 while (daysLeft > 0) {
     countdown(daysLeft);
 }

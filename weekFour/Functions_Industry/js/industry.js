@@ -28,9 +28,11 @@ if (monthsOwed === "") {
 console.log("The client has " + monthsOwed + " months to pay you back.");
 //variable to find out if client is paying on a weekly or biweekly basis
 var weekly = prompt("Is your client paying every 1 or 2 weeks?");
+//convert string to int
 weekly = parseInt(weekly);
+//create a variable to store the value to be used in the function for calculation
 var weeklyTwo;
-//if else statement needed to make weekly mean anything
+//if else statement needed to make weekly useable in calculation
 if (weekly === "") {
     weekly = prompt("You did not enter anything. Please try again.");
 }else if (weekly == 1) {
@@ -42,23 +44,27 @@ if (weekly === "") {
 }else if (weekly < 1) {
     weekly = prompt("Sorry, we only support a pay schedule of 1 and 2 weeks.");
 }
+//converting moneyOwed to int
 moneyOwed = parseInt(moneyOwed);
-console.log(moneyOwed);
+//console.log moneyOwed
+console.log("The client owes " + moneyOwed + " dollars.");
+//converting monthsOwed to int
 monthsOwed = parseInt(monthsOwed);
-console.log(monthsOwed);
+//console.log monthsOwed
+console.log("The client has " + monthsOwed + " months to pay.");
+//convert weeklyTwo to int
 weeklyTwo = parseInt(weeklyTwo);
-console.log(weeklyTwo);
-//create variable for function to return to
 
 //function to store calculation
-
-function moneyPerweek (money,months,week){
+function moneyPerWeek (money,months,week){
 
     var moneyMonths = money / months;
     var moneyWeeks = moneyMonths/(week);
     return moneyWeeks;
 
 }
-var moneyWeeks = moneyPerweek(moneyOwed,monthsOwed,weeklyTwo);
+//calling function moneyPerWeek
+var moneyWeeks = moneyPerWeek(moneyOwed,monthsOwed,weeklyTwo);
 
+//console.log final answer
 console.log("The client owes " + moneyWeeks + " per " + weekly + " weeks");
